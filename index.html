@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Gaming Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0b1020;
+      color: #f5f5f5;
+    }
+    header {
+      background: #151b35;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px 40px;
+    }
+    .hero {
+      text-align: center;
+      padding: 30px 15px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #151b35, #242b4f);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+    }
+    .hero h2 {
+      margin: 0 0 10px;
+      font-size: 1.8rem;
+    }
+    .hero p {
+      margin: 0 0 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 25px;
+      border: none;
+      background: #ffcc00;
+      color: #151515;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover {
+      transform: scale(1.03);
+    }
+    .games-section {
+      margin-top: 40px;
+    }
+    .game-card {
+      background: #151b35;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    }
+    .game-card h3 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #151b35;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Gaming Portal</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h2>Welcome to My Cloud Gaming Zone</h2>
+      <p>Play fun browser games hosted on the cloud. New games will be added soon!</p>
+      <!-- Replace YOUR_GAME_LINK with your cloud game URL in Objective 3 -->
+      <a href="YOUR_GAME_LINK_HERE" class="btn" target="_blank">Play My Game</a>
+    </section>
+
+    <section id="games" class="games-section">
+      <h2>Games</h2>
+
+      <div class="game-card">
+        <h3>Cloud Clicker (Example)</h3>
+        <p>A simple click-and-score game built using HTML5, CSS and JavaScript.</p>
+        <p>
+          <strong>Play here:</strong>
+          <a href="YOUR_GAME_LINK_HERE" target="_blank" style="color:#ffcc00;">Launch Game</a>
+        </p>
+      </div>
+
+      <!-- You can add more game cards later -->
+    </section>
+
+    <section id="about" class="games-section">
+      <h2>About This Portal</h2>
+      <p>
+        This website is created as part of my cloud and web development activity.
+        The games are hosted using cloud platforms and linked here for easy access.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 My Gaming Portal
+  </footer>
+</body>
+</html>
