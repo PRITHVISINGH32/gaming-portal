@@ -30,7 +30,7 @@ Basic animation
 Cloud hosting
 
 👉 Play the Game:
-https://your-cloud-game-link-here
+https://gaming-portal-liart.vercel.app/
 
 The homepage includes buttons linking directly to this game.
 
